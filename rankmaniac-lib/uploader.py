@@ -98,8 +98,8 @@ def do_main(team_id, access_key, secret_key,
 
 if __name__ == '__main__':
 
-    team_id = 'YOUR-TEAM-ID'
-    access_key = 'YOUR-ACCESS-KEY'
-    secret_key = 'YOUR-SECRET-KEY'
+    team_id = 'tipsy'
+    access_key = 'AKIAJPYWNZ6NG43N533Q'
+    secret_key = 'ZJyvBpIbm6VkGiFCOiaV1hbnq91qNPYKgKJPj0TS'
 
     do_main(team_id, access_key, secret_key)
