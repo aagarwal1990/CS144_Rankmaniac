@@ -26,7 +26,9 @@ for i in range(len(nodes)):
     curr_node = nodes[i]
     adj_dict[curr_node]['prev_rank']= adj_dict[curr_node]['curr_rank'] 
     adj_dict[curr_node]['curr_rank'] = float(i)
-    sys.stdout.write(str(curr_node) + ' ' + str(adj_dict[curr_node]) + '\n')
+    sys.stdout.write(str(curr_node) + ' ' + str(adj_dict[curr_node]['prev_rank']) \
+                     + ' ' + str(adj_dict[curr_node]['curr_rank']) \
+                     + ' ' + str(adj_dict[curr_node]['neighbours']) +'\n')
     
 
     
